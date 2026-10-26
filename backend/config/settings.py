@@ -29,3 +29,5 @@ FRONTEND_DIST = Path(os.environ.get("FRONTEND_DIST", BASE_DIR.parent / "frontend
 if FRONTEND_DIST.exists():
     WHITENOISE_ROOT = FRONTEND_DIST
     WHITENOISE_INDEX_FILE = True
+
+SECURE_REFERRER_POLICY = "strict-origin-when-cross-origin"
