@@ -3,6 +3,10 @@
 React + Django app that compares three driving routes for a truck and recommends the safest one using
 forecast weather **at the time the truck will actually be there**, the load weight, and travel time.
 
+**Live demo:** https://weather-truck-routing-eiy2.onrender.com/
+
+> Hosted on Render's free tier, so the first load after a period of inactivity can take 30–60 seconds to wake up.
+
 ## Run locally
 
 ```bash
